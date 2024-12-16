@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   try {
-    const res = await fetch('https://api.api-ninjas.com/v1/dadjokes', {
+    const res = await fetch('', {
       method: 'GET',
       headers: {
         'X-Api-Key': 'w5dlActl9mbT1wxJOyjBuw==9ptWMjRhip5hyO4W',
